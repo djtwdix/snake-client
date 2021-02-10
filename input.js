@@ -26,6 +26,12 @@ const handleUserInput = (key) => {
   if (key === '\u0077') {
     connection.write("Move: up")
   }
+  if (key === '\u006d') {
+    connection.write("Say: I'm the winner!!!")
+  }
+  if (key === '\u006e') {
+    connection.write("Say: I'M HUNGRY!!!")
+  }
 }
 
 module.exports = setupInput;
